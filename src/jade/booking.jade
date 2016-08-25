@@ -1,0 +1,36 @@
+extends layout
+
+block currentUrl
+    -var currentUrl = 'booking'
+
+block content
+    .booking
+        .paper(data-uk-parallax="{y: '100'}")
+            .row
+                .col-md-6
+                    .intro
+                        h2 車位預約說明
+                        hr
+                        p.
+                            車位預約說明在這裡車位預約說明在這裡車位預約在這裡，<br>
+                            車位預約說明在這裡車，位預約說明在這裡車位預約說明在這位。<br>
+                            預約說明在這裡車位預約說明在這裡，車位預約說明在這。<br>
+                            裡車位預約說明在這裡車位預約說明在這裡車位預約說明在這裡車明在這裡。
+                .col-md-6
+                    .booking-form
+                        form
+                            .form-group
+                                label 車場
+                                input.form-control(type="text", placeholder="車場名稱")
+                            .form-group
+                                label 姓名
+                                input.form-control(type="text", placeholder="姓名")
+                            .form-group
+                                label 聯絡電話
+                                input.form-control(type="text", placeholder="聯絡電話")
+                            .form-group
+                                label 車號
+                                input.form-control(type="text", placeholder="車號")
+
+                            button.submit.btn.btn-primary.btn-block 確認送出
+

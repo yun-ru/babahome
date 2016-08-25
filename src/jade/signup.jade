@@ -1,0 +1,36 @@
+extends layout
+
+block currentUrl
+    -var currentUrl = 'signup'
+
+block content
+    .signup
+        .row
+            .col-md-6.col-md-offset-3
+                .paper(data-uk-parallax="{y: '100'}")
+                    .row
+                        .col-md-12
+                            .signup-form
+                                h2.text-center 加入會員
+                                form
+                                    .form-group
+                                        label 帳號
+                                        input.form-control(type="text", placeholder="帳號")
+                                    .form-group
+                                        label 密碼
+                                        input.form-control(type="password", placeholder="密碼")
+                                    .form-group
+                                        label 密碼確認
+                                        input.form-control(type="password", placeholder="請再輸入一次密碼")
+                                    .form-group
+                                        label 姓名
+                                        input.form-control(type="text", placeholder="姓名")
+                                    .form-group
+                                        label 聯絡電話
+                                        input.form-control(type="text", placeholder="聯絡電話")
+                                    .form-group
+                                        label 信箱
+                                        input.form-control(type="text", placeholder="信箱")
+
+                                    button.submit.btn.btn-primary.btn-block 確認送出
+

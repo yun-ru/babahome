@@ -1,0 +1,144 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-btn01 {
+  background-image: url(sprite.png);
+  background-position: -158px -47px;
+  width: 158px;
+  height: 53px;
+}
+.icon-btn01_r {
+  background-image: url(sprite.png);
+  background-position: -632px -206px;
+  width: 158px;
+  height: 53px;
+}
+.icon-btn02 {
+  background-image: url(sprite.png);
+  background-position: -316px -100px;
+  width: 158px;
+  height: 53px;
+}
+.icon-btn03 {
+  background-image: url(sprite.png);
+  background-position: -474px -153px;
+  width: 158px;
+  height: 53px;
+}
+.icon-btn_c_01 {
+  background-image: url(sprite.png);
+  background-position: -1794px -843px;
+  width: 124px;
+  height: 124px;
+}
+.icon-btn_c_02 {
+  background-image: url(sprite.png);
+  background-position: -1918px -967px;
+  width: 124px;
+  height: 124px;
+}
+.icon-btn_c_03 {
+  background-image: url(sprite.png);
+  background-position: -2042px -1091px;
+  width: 124px;
+  height: 124px;
+}
+.icon-btn_c_04 {
+  background-image: url(sprite.png);
+  background-position: -2166px -1215px;
+  width: 124px;
+  height: 124px;
+}
+.icon-btn_c_05 {
+  background-image: url(sprite.png);
+  background-position: -2290px -1339px;
+  width: 124px;
+  height: 124px;
+}
+.icon-btn_c_06 {
+  background-image: url(sprite.png);
+  background-position: -1422px -471px;
+  width: 124px;
+  height: 124px;
+}
+.icon-btn_c_07 {
+  background-image: url(sprite.png);
+  background-position: -1546px -595px;
+  width: 124px;
+  height: 124px;
+}
+.icon-btn_c_08 {
+  background-image: url(sprite.png);
+  background-position: -1670px -719px;
+  width: 124px;
+  height: 124px;
+}
+.icon-car {
+  background-image: url(sprite.png);
+  background-position: -3288px -2235px;
+  width: 616px;
+  height: 360px;
+}
+.icon-code {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 158px;
+  height: 47px;
+}
+.icon-contact_btn {
+  background-image: url(sprite.png);
+  background-position: -2694px -1570px;
+  width: 294px;
+  height: 107px;
+}
+.icon-logo {
+  background-image: url(sprite.png);
+  background-position: -2414px -1463px;
+  width: 280px;
+  height: 107px;
+}
+.icon-member {
+  background-image: url(sprite.png);
+  background-position: -1264px -418px;
+  width: 158px;
+  height: 53px;
+}
+.icon-signin {
+  background-image: url(sprite.png);
+  background-position: -1106px -365px;
+  width: 158px;
+  height: 53px;
+}
+.icon-signin_after {
+  background-image: url(sprite.png);
+  background-position: -948px -312px;
+  width: 158px;
+  height: 53px;
+}
+.icon-signup {
+  background-image: url(sprite.png);
+  background-position: -790px -259px;
+  width: 158px;
+  height: 53px;
+}
+.icon-taiwan {
+  background-image: url(sprite.png);
+  background-position: -2988px -1677px;
+  width: 300px;
+  height: 558px;
+}

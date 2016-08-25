@@ -1,0 +1,10 @@
+{
+  "name": "BABAHOME",
+  "version": "1.0.0",
+  "dirs": {
+    "archive": "archive",
+    "dist": "dist",
+    "src": "src",
+    "test": "test"
+  }
+}

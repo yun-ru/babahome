@@ -1,0 +1,103 @@
+div
+    box-sizing: border-box;
+
+.icon
+    display: inline-block
+
+.clear
+    clear: both
+
+////////////////////////////////
+// Background
+////////////////////////////////
+
+.bg
+    background-image: linear-gradient(top, rgba(#000,0.1) 0%, rgb(#fff) 30%);
+    .ground
+        background-image: linear-gradient(top, rgba(#000,0.1) 0%, rgb(#fff) 100%);
+        margin-top: 35%
+        height: 200px
+        width: 100%
+        position: absolute
+
+////////////////////////////////
+// Modal
+////////////////////////////////
+
+.modal
+    .modal-dialog
+        margin-top: 10%
+    .modal-header
+        .modal-title
+            letter-spacing: 1px
+
+
+
+////////////////////////////////
+// Form
+////////////////////////////////
+
+.login-form
+    .code
+        padding-top: 25px
+
+
+button.submit
+    margin-top: 10px
+    background-color: #EF7405
+    border: 1px solid #EF7405
+    &:hover,&.active,&:active,&:focus
+        background-color: #c66305
+        border: 1px solid #c66305
+
+
+////////////////////////////////
+// Paper
+////////////////////////////////
+
+.paper
+    position: relative
+    z-index: 9
+    margin: 40px 40px
+    background-color: #fff
+    box-shadow: 0 0 5px rgba(#000,0.2)
+    .title
+        padding: 40px 30px 10px 30px
+        border-bottom: 1px solid #eee
+        letter-spacing: 5px
+        position: relative
+        button.btn.btn-default
+            border: 1px solid #333
+            background-color: #333
+            color: #fff
+            position: absolute
+            left: 30px
+            &:hover,&.active,&:active,&:focus
+                background-color: #555
+
+    .content
+        padding: 50px 30px 100px 30px
+
+        h3
+            color: #003F9C
+            letter-spacing: 1px
+            span
+                color: #333
+                font-size: 16px
+                letter-spacing: 0
+                &.red
+                    color: red
+                    margin: 0 10px
+
+        .table
+            tr
+                th, td
+                    text-align: center
+                    vertical-align: middle
+                th
+                    background-color: #ddd
+                td
+                    &.red
+                        color: red
+
+

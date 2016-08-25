@@ -1,0 +1,49 @@
+extends layout
+
+block currentUrl
+    -var currentUrl = 'payment'
+
+block content
+    .payment
+        .paper(data-uk-parallax="{y: '100'}")
+            .title
+                h2.text-center 本月進出紀錄
+                    button.btn.btn-default.pull-left.back 返回
+
+            .content
+                h3 聖賢停車場  ALK3009  蔡小姐
+                    span.pull-right (逾時時數 <span class="red">5</span>小時; 逾時費用<span class="red">250</span>元)
+                table.table.table-bordered.table-striped
+                    tr
+                        th 入場時間
+                        th 出場時間
+                        th 逾時時數
+                        th 逾時費用
+                    tr
+                        td 2016-03-01 17:00
+                        td 2016-03-01 22:00
+                        td 2
+                        td 100
+                    tr
+                        td 2016-03-01 17:00
+                        td 2016-03-01 22:00
+                        td 2
+                        td 100
+                    tr
+                        td 2016-03-01 17:00
+                        td 2016-03-01 21:00
+                        td 1
+                        td 50
+                    tr
+                        td 2016-03-01 17:00
+                        td 2016-03-01 20:00
+                        td
+                        td
+                    tr
+                        td 2016-03-01 17:00
+                        td 2016-03-01 20:00
+                        td
+                        td
+
+
+

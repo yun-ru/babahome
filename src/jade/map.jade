@@ -1,0 +1,99 @@
+extends layout
+
+block currentUrl
+    -var currentUrl = 'map'
+
+block content
+
+
+    .map
+        .mapModal.modal.fade(tabindex='-1', role='dialog')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') &times;
+                        h4.modal-title 復興停車場
+                    .modal-body
+                        #map
+                        .map-address 說明在這裡
+
+
+
+
+
+        .paper
+            .row
+                .col-md-6
+                    .taiwan-map(data-uk-sticky="{top:0, bottom: 400}")
+                        img(src='/images/taiwan.png', border='0', width='300', height='558', usemap='#taiwan', alt='')
+                        map(name='taiwan')
+                            area(data-area="a", href="#a", data-uk-smooth-scroll="{offset: 30}", shape='poly', coords='270,31,299,51,274,59,233,85,211,102,202,76,188,60,194,40,187,33,201,20,219,8,229,6,252,22,245,29,253,43,265,43,262,34')
+                            area(data-area="b", href="#b", data-uk-smooth-scroll="{offset: 30}", shape='poly', coords='137,60,158,70,182,89,190,110,208,120,193,145,167,124,122,100,123,78')
+                            area(data-area="c", href="#c", data-uk-smooth-scroll="{offset: 30}", shape='poly', coords='4,331,23,332,49,315,73,321,82,340,96,346,57,390,38,394,26,394,1,375')
+                            area(data-area="d", href="#d", data-uk-smooth-scroll="{offset: 30}", shape='poly', coords='143,300,160,307,161,326,142,341,135,392,121,397,99,397,74,408,65,463,42,439,28,399,52,396,94,362,95,343,127,311')
+
+
+                .col-md-6
+                    .area#a
+                        h2 台北
+                        p.a(data-location="a1", data-title="新光醫院", data-map="some address map")
+                            b 新光醫院
+                            | 台北市士林區文昌路95號新光醫院
+                        p.a(data-location="a2", data-title="美崙", data-map="some address map")
+                            b 美崙
+                            | 台北市士林區四小段
+                        p.a(data-location="a3", data-title="747車場", data-map="some address map")
+                            b 747車場
+                            | 台北市士林區陽明段四小段
+                        p.a(data-location="a4", data-title="新光醫院", data-map="some address map")
+                            b 新光醫院
+                            | 台北市士林區文昌路95號新光醫院
+                    .area#b
+                        h2 新竹
+                        p.b(data-location="b1", data-title="新光醫院", data-map="some address map")
+                            b 新光醫院
+                            | 台北市士林區文昌路95號新光醫院
+                        p.b(data-location="b2", data-title="美崙", data-map="some address map")
+                            b 美崙
+                            | 台北市士林區四小段
+                        p.b(data-location="b3", data-title="747車場", data-map="some address map")
+                            b 747車場
+                            | 台北市士林區陽明段四小段
+                        p.b(data-location="b4", data-title="新光醫院", data-map="some address map")
+                            b 新光醫院
+                            | 台北市士林區文昌路95號新光醫院
+                    .area#c
+                        h2 台南
+                        p.c(data-location="c1", data-title="新光醫院", data-map="some address map")
+                            b 新光醫院
+                            | 台北市士林區文昌路95號新光醫院
+                        p.c(data-location="c2", data-title="美崙", data-map="some address map")
+                            b 美崙
+                            | 台北市士林區四小段
+                        p.c(data-location="c3", data-title="747車場", data-map="some address map")
+                            b 747車場
+                            | 台北市士林區陽明段四小段
+                        p.c(data-location="c4", data-title="新光醫院", data-map="some address map")
+                            b 新光醫院
+                            | 台北市士林區文昌路95號新光醫院
+                    .area#d
+                        h2 高雄
+                        p.d(data-location="d1", data-title="新光醫院", data-map="some address map")
+                            b 新光醫院
+                            | 台北市士林區文昌路95號新光醫院
+                        p.d(data-location="d2", data-title="美崙", data-map="some address map")
+                            b 美崙
+                            | 台北市士林區四小段
+                        p.d(data-location="d3", data-title="747車場", data-map="some address map")
+                            b 747車場
+                            | 台北市士林區陽明段四小段
+                        p.d(data-location="d4", data-title="新光醫院", data-map="some address map")
+                            b 新光醫院
+                            | 台北市士林區文昌路95號新光醫院
+
+
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX3esK6hR5yuXdv08B6HC4H0SYqZA23cQ")
+
+
+

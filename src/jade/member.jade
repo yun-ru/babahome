@@ -1,0 +1,46 @@
+extends layout
+
+block currentUrl
+    -var currentUrl = 'member'
+
+block content
+    .member
+        .uk-position-relative
+            .menu(data-uk-parallax="{y: '250'}")
+                div
+                    a.icon.icon-btn_c_01
+                    a.icon.icon-btn_c_02(href="/booking.html")
+                    a.icon.icon-btn_c_06(href="/history.html")
+                    a.icon.icon-btn_c_08(data-toggle="modal", data-target="#pwModal")
+                div
+                    a.icon.icon-btn_c_03(href="/map.html")
+                    a.icon.icon-btn_c_05(href="/payment.html")
+                    a.icon.icon-btn_c_07(href="/bill.html")
+
+        #pwModal.modal.fade(tabindex='-1', role='dialog')
+            .modal-dialog.modal-sm(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') &times;
+                        h4.modal-title 修改密碼
+                    .modal-body
+                        form.login-form
+                            .form-group
+                                label 原密碼
+                                input.form-control(type="text", placeholder="原密碼")
+                            .form-group
+                                label 新密碼
+                                input.form-control(type="password", placeholder="新密碼")
+                            .row
+                                .col-md-6
+                                    .form-group
+                                        label 驗證碼
+                                        input.form-control(type="text", placeholder="驗證碼")
+                                .col-md-6
+                                    .form-group.code
+                                        img(src="images/code.png")
+
+
+                            button.submit.btn.btn-primary.btn-block(data-dismiss="modal") 確認送出
+

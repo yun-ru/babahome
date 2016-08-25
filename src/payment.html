@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title>Ruby Startkit</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><!-- build:css css/combined.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bower_components/animate.css/animate.css">
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="../bower_components/Font-Awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../bower_components/Swiper/dist/css/swiper.css">
+    <link rel="stylesheet" href="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="../bower_components/jquery-focuspoint/css/focuspoint.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap-select/dist/css/bootstrap-select.css">
+    <link rel="stylesheet" href="../bower_components/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="../bower_components/uikit/css/uikit.almost-flat.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+    <link href="css/sprite.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"><!--[if lt IE 9]-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="bg">
+      <div class="ground"></div>
+      <div class="uk-position-relative">
+        <div class="header">
+          <div class="container"><a href="/" class="icon icon-logo"></a>
+            <div class="top-menu"><a href="/signup.html" class="icon icon-signup"></a><a id="signIn" class="icon icon-signin_after"></a><a href="/booking.html" class="icon icon-btn02"></a></div>
+          </div>
+          <div id="loginModal" tabindex="-1" role="dialog" class="modal fade">
+            <div role="document" class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">會員登入</h4>
+                </div>
+                <div class="modal-body">
+                  <form class="login-form">
+                    <div class="form-group">
+                      <label>帳號</label>
+                      <input type="text" placeholder="帳號" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label>密碼</label>
+                      <input type="password" placeholder="密碼" class="form-control">
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>驗證碼</label>
+                          <input type="text" placeholder="驗證碼" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group code"><img src="/images/code.png"></div>
+                      </div>
+                    </div>
+                    <button data-dismiss="modal" class="submit btn btn-primary btn-block">確認送出</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="container">
+          <div class="payment">
+            <div data-uk-parallax="{y: '100'}" class="paper">
+              <div class="title">
+                <h2 class="text-center">付款紀錄
+                  <button class="btn btn-default pull-left back">返回</button>
+                </h2>
+              </div>
+              <div class="content">
+                <h3>聖賢停車場  ALK3009  蔡小姐</h3>
+                <table class="table table-bordered table-striped">
+                  <div class="tr">
+                    <th>帳單項目</th>
+                    <th>繳費期限</th>
+                    <th>應繳金額</th>
+                    <th>當期金額</th>
+                    <th>逾時金額</th>
+                    <th>繳費日期</th>
+                    <th>繳費狀態</th>
+                    <th>功能</th>
+                  </div>
+                  <tr>
+                    <td>2016年3月租金</td>
+                    <td>2016/03/10</td>
+                    <td>5,000</td>
+                    <td>3,000</td>
+                    <td>100</td>
+                    <td></td>
+                    <td class="red">未繳費</td>
+                    <td>
+                      <button class="btn btn-danger btn-sm">繳費</button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <ul>
+                <li><a>最新消息</a></li>
+                <li><a>關於誼光</a></li>
+                <li><a>服務據點</a></li>
+                <li><a>教育訓練</a></li>
+              </ul>
+              <ul>
+                <li><a>員工表揚</a></li>
+                <li><a>人員招募</a></li>
+                <li><a>服務項目</a></li>
+                <li><a>聯絡誼光</a></li>
+              </ul>
+              <ul>
+                <li><a>保全百科</a></li>
+                <li><a>我們的客戶</a></li>
+                <li><a>關係企業</a></li>
+                <li><a>誼光管制中心</a></li>
+              </ul>
+              <p>誼光保全股份有限公司 ‧ 誼光國際公寓大廈管理維護股份有限公司<br>版權所有 © 2015 YKS. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-4"><br>
+              <h2 class="yellow">立刻聯絡叭叭房</h2>
+              <h1>02-2223-6767</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- build:js js/combined.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/Swiper/dist/js/swiper.js"></script>
+    <script src="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+    <script src="../bower_components/jquery-focuspoint/js/jquery.focuspoint.js"></script>
+    <script src="../bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+    <script src="../bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
+    <script src="../bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="../bower_components/uikit/js/uikit.min.js"></script>
+    <script src="../bower_components/uikit/js/components/parallax.js"></script>
+    <script src="../bower_components/uikit/js/components/grid-parallax.js"></script>
+    <script src="../bower_components/uikit/js/components/sticky.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+extends layout
+
+block currentUrl
+    -var currentUrl = 'index'
+
+block content
+    .index
+        .row
+            .col-md-8.uk-position-relative
+                .intro(data-uk-parallax="{y: '150'}")
+                    h2 專業保全與科技管理，打造優質停車空間
+                    p.
+                        誼光自民國 87 年起經營停車場事業，擁有近 20 年專業停車場開<br>
+                        發規劃及營運管理經驗，在全台已開發超過60個停車場、8000 個停車位，每年服務上百萬車主，<br>
+                        秉持保全專業與高科技管理，提升停車場安全與經濟效益，因應未來趨勢，<br>
+                        叭叭房停車場管理將逐步邁向全自動無人化經營，並採用內建 GPS 和車牌辨識系統設備，<br>
+                        提供車主最優質的服務。
+                    img.car(src="images/car.png",data-uk-parallax="{y: '200', x: '200'}")
+
+
+            .col-md-4.uk-position-relative
+                .menu(data-uk-parallax="{y: '200'}")
+                    div
+                        a.icon.icon-btn_c_01(href="")
+                        a.icon.icon-btn_c_02(href="/booking.html")
+                    div
+                        a.icon.icon-btn_c_03(href="/map.html")
+                        a.icon.icon-btn_c_07(href="/bill.html")
+
+                a.icon.icon-contact_btn(href="")

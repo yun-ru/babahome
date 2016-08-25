@@ -1,0 +1,40 @@
+.map
+    #map
+        height: 400px
+    .taiwan-map
+
+        padding-top: 60px
+        padding-left: 60px
+        position: relative
+        map > area
+            cursor: pointer
+            outline: none
+
+    .area
+        margin: 60px 30px
+        h2
+            color: #0341A2
+        p
+            font-size: 16px
+            margin: 10px 0
+            cursor: pointer
+            &:hover,&.active
+                color: red
+            b
+                display: inline-block
+                width: 100px
+
+
+    .mapModal
+        .modal-dialog
+            position: relative
+            i
+                color: #fff
+                font-size: 40px
+                position: absolute
+                cursor: pointer
+                top: 47%
+                &.prev
+                    left: -50px
+                &.next
+                    right: -50px

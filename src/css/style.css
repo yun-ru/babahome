@@ -1,0 +1,290 @@
+div {
+  box-sizing: border-box;
+}
+.icon {
+  display: inline-block;
+}
+.clear {
+  clear: both;
+}
+.bg {
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, #fff 30%);
+  background-image: linear-gradient(top, rgba(0,0,0,0.1) 0%, #fff 30%);
+}
+.bg .ground {
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, #fff 100%);
+  background-image: linear-gradient(top, rgba(0,0,0,0.1) 0%, #fff 100%);
+  margin-top: 35%;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+}
+.modal .modal-dialog {
+  margin-top: 10%;
+}
+.modal .modal-header .modal-title {
+  letter-spacing: 1px;
+}
+.login-form .code {
+  padding-top: 25px;
+}
+button.submit {
+  margin-top: 10px;
+  background-color: #ef7405;
+  border: 1px solid #ef7405;
+}
+button.submit:hover,
+button.submit.active,
+button.submit:active,
+button.submit:focus {
+  background-color: #c66305;
+  border: 1px solid #c66305;
+}
+.paper {
+  position: relative;
+  z-index: 9;
+  margin: 40px 40px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.paper .title {
+  padding: 40px 30px 10px 30px;
+  border-bottom: 1px solid #eee;
+  letter-spacing: 5px;
+  position: relative;
+}
+.paper .title button.btn.btn-default {
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  left: 30px;
+}
+.paper .title button.btn.btn-default:hover,
+.paper .title button.btn.btn-default.active,
+.paper .title button.btn.btn-default:active,
+.paper .title button.btn.btn-default:focus {
+  background-color: #555;
+}
+.paper .content {
+  padding: 50px 30px 100px 30px;
+}
+.paper .content h3 {
+  color: #003f9c;
+  letter-spacing: 1px;
+}
+.paper .content h3 span {
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.paper .content h3 span.red {
+  color: #f00;
+  margin: 0 10px;
+}
+.paper .content .table tr th,
+.paper .content .table tr td {
+  text-align: center;
+  vertical-align: middle;
+}
+.paper .content .table tr th {
+  background-color: #ddd;
+}
+.paper .content .table tr td.red {
+  color: #f00;
+}
+.footer {
+  padding: 30px 0;
+  background-color: #0341a2;
+  margin-top: 100px;
+  position: relative;
+  z-index: 99;
+}
+.footer h2 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.footer h2.yellow {
+  color: #ff0;
+}
+.footer h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+.footer ul,
+.footer li {
+  margin: 0;
+  padding: 0;
+}
+.footer ul {
+  margin: 6px 0;
+  margin-left: -10px;
+}
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  border-left: 1px solid #fff;
+}
+.footer ul li:first-of-type {
+  border-left: none;
+}
+.footer ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+}
+.footer ul li a:hover {
+  color: #ff0;
+}
+.footer p {
+  line-height: 25px;
+  color: #fff;
+}
+.header {
+  padding-top: 20px;
+}
+.header .icon {
+  margin: 0 10px;
+}
+.header .icon.icon-logo {
+  margin-right: 30px;
+}
+.header .top-menu {
+  display: inline-block;
+}
+.header .top-menu a:hover {
+  position: relative;
+  opacity: 0.9;
+}
+.index .intro {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.index .intro h2 {
+  color: #00008b;
+}
+.index .intro p {
+  line-height: 25px;
+  font-size: 16px;
+}
+.index .intro .car {
+  margin-left: -50px;
+}
+.index .menu {
+  margin-top: 34px;
+}
+.index .menu .icon {
+  margin: 6px;
+}
+.index .menu .icon:hover {
+  opacity: 0.9;
+  position: relative;
+  top: -3px;
+}
+.index .icon-contact_btn {
+  margin-top: 300px;
+}
+.member .menu {
+  position: relative;
+  width: 556px;
+  margin: 80px auto;
+  z-index: 1;
+}
+.member .menu .icon {
+  margin: 6px;
+}
+.member .menu .icon:hover {
+  opacity: 0.9;
+  position: relative;
+  top: -3px;
+}
+.booking .paper .intro {
+  padding: 30px;
+}
+.booking .paper .intro h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+.booking .paper .intro p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.booking .paper .booking-form {
+  padding: 30px;
+}
+.booking .paper .booking-form button.submit {
+  margin-top: 30px;
+}
+.signup .paper .intro {
+  padding: 30px;
+}
+.signup .paper .intro h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+.signup .paper .intro p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.signup .paper .signup-form {
+  padding: 30px;
+}
+.signup .paper .signup-form button.submit {
+  margin-top: 30px;
+}
+.map #map {
+  height: 400px;
+}
+.map .taiwan-map {
+  padding-top: 60px;
+  padding-left: 60px;
+  position: relative;
+}
+.map .taiwan-map map > area {
+  cursor: pointer;
+  outline: none;
+}
+.map .area {
+  margin: 60px 30px;
+}
+.map .area h2 {
+  color: #0341a2;
+}
+.map .area p {
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.map .area p:hover,
+.map .area p.active {
+  color: #f00;
+}
+.map .area p b {
+  display: inline-block;
+  width: 100px;
+}
+.map .mapModal .modal-dialog {
+  position: relative;
+}
+.map .mapModal .modal-dialog i {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  cursor: pointer;
+  top: 47%;
+}
+.map .mapModal .modal-dialog i.prev {
+  left: -50px;
+}
+.map .mapModal .modal-dialog i.next {
+  right: -50px;
+}

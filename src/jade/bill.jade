@@ -1,0 +1,36 @@
+extends layout
+
+block currentUrl
+    -var currentUrl = 'payment'
+
+block content
+    .payment
+        .paper(data-uk-parallax="{y: '100'}")
+            .title
+                h2.text-center 帳單繳費
+                    button.btn.btn-default.pull-left.back 返回
+
+            .content
+                h3 聖賢停車場  ALK3009  蔡小姐
+                table.table.table-bordered.table-striped
+                    .tr
+                        th 帳單項目
+                        th 繳費期限
+                        th 應繳金額
+                        th 當期金額
+                        th 逾時金額
+                        th 繳費日期
+                        th 繳費狀態
+                        th 功能
+                    tr
+                        td 2016年3月租金
+                        td 2016/03/10
+                        td 5,000
+                        td 3,000
+                        td 100
+                        td
+                        td.red 未繳費
+                        td
+                            button.btn.btn-danger.btn-sm 繳費
+
+
